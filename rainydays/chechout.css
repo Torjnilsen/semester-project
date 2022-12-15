@@ -1,0 +1,256 @@
+html {
+    box-sizing: border-box;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: rgb(226, 223, 223);;
+   
+}
+.item {
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+   
+    width: 100%;
+    height: auto;
+   /*add flexbox style*/
+   display: flex;
+   flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.one {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav img {
+    padding-top: 10px;
+}
+
+nav a {
+    padding-top: 40px;
+    padding: 40px;
+    display: block;
+    font-family: "urw-din", arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    padding: 0;
+    list-style: none;
+}
+.item-container{
+   
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    /*add flexbox style*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+        
+
+}
+main{
+    background-color: white;
+    width: 1410px;
+}
+
+.two {
+background-color: white;
+width: 800px;
+height: 1250px;
+border: 2px solid black;
+box-sizing: border-box;
+  }
+
+
+.three {
+    display: flex;
+    
+    background-color: white;
+    width: 500px;
+     height: 900px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+height: 45px;
+    width: 45px;
+}
+.card2{
+    height: 45px;
+    width: 45px;
+}
+
+input {
+    width: 100%;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+input[type=submit]{
+    width: 140px;
+    height: 60px;
+   
+}
+.sub{
+    color: #000;
+    text-decoration: none;
+    padding-right: 50px;
+   
+}
+
+
+.three h3{
+    text-align: center;
+}
+.ski{
+margin-top: 0;
+    Width: 205px;
+    Height: 210px;
+    padding: 20px;
+}
+.ski:hover{
+    Width: 210px;
+     Height: 215px;
+}
+.Size{
+    width: 60px;
+    height: 60px;
+    padding: 0%;
+    font-size: 30px;
+    
+}
+
+ul{
+color: rgb(187, 187, 187);
+}
+
+.red{
+    color: red;
+    padding: 0;
+}
+.price{
+    color: red;
+    padding: 0;
+}
+.total{
+    color: red;
+        padding: 0;
+}
+.color{
+    color: red;
+    padding: 0;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    
+}
+h2{
+   padding-left: 20px;
+    padding-top: 70px;
+   
+}
+
+.four{
+    background-color: white;
+        width: 100%;
+        height: 110px;
+        display: flex;
+        flex-direction: row;
+        gap: 1vh;
+        padding-top: 30px;
+        box-sizing: border-box;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+        
+                .bottom-logo {
+                    width: 60px;
+                    height: 60px;
+                }
+        
+                .face-logo {
+                    width: 60px;
+                    height: 60px;
+                }
+        
+                .insta-logo {
+                    width: 60px;
+                    height: 60px;
+                }
+        
+                footer a {
+                    color: rgb(0, 0, 0);
+                    text-decoration: none;
+                    font-size: 18px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+        
+                footer ul {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 4vh;
+                    padding: 5;
+        
+                }
+
+
+    
+ 
+

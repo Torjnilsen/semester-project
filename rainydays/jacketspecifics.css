@@ -1,0 +1,204 @@
+body {
+    background-color: rgb(192, 191, 191);
+}
+
+
+.one {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 100px;
+    width: auto;
+}
+
+nav img {
+    padding-top: 10px;
+}
+
+nav a {
+    padding-top: 40px;
+    padding: 40px;
+    display: block;
+    font-family: "urw-din", arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    padding: 0;
+    list-style: none;
+}
+
+.logo {
+    padding-left: 20px;
+}
+
+.item{
+    
+ padding: 10px;
+ margin:10px;
+           
+            
+        
+}
+
+.item-container{
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.two {
+   
+        background-color:white ;
+        width: auto;
+        height: 600px;
+       padding-right: 80px;
+       
+}
+
+.three {
+  
+        background-color: white;
+        width: auto;
+        height: 600px;
+     
+}
+.three img{
+    padding-right: 25px;
+}
+.leaf1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+   Width: 400px; 
+   Height: 400px;
+
+}
+
+.leaf1:hover{
+    width: 410px;
+    height: 410px;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    text-align: center;
+}
+.leaf2{
+    Width: 300px; 
+    Height: 300px;
+}
+.leaf2:hover {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+}
+
+.hood{
+    Width: 300px;
+    Height: 300px;
+}
+.hood:hover {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+}
+    
+.zip {
+    Width: 300px;
+    Height: 300px;
+}
+
+.zip:hover {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+}
+
+.pocket {
+    Width: 300px;
+    Height: 300px;
+}
+
+.pocket:hover {
+    width: 310px;
+    height: 310px;
+    border: 2px solid black;
+}
+
+.fore{
+    background-color: white;
+        width: auto;
+        height: 300px;
+}
+
+.bottom-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.face-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.insta-logo {
+    width: 60px;
+    height: 60px;
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.five {
+    background-color: white;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    padding-top: 30px;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4vh;
+    padding: 5;
+
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+}

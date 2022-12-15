@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(226, 223, 223);
+}
+
+.fore {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 100px;
+}
+
+nav{
+    height: 150px;
+    background-color: rgb(192, 189, 189);
+}
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+    gap: 6vh;
+    padding: 25px;
+    list-style: none;
+}
+a:hover {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav img {
+    padding-top: 10px;
+}
+
+nav a {
+   
+    display: block;
+    font-family: "urw-din", arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+}
+
+.item {
+    padding: 10px;
+    margin: 10px;
+    flex: 5;
+}
+
+.one {
+    width: 300px;
+    background-color: white;
+    border: 2px solid black;
+}
+h2{
+    text-align: center;
+}
+.one p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+   
+}
+
+.two p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.three p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px
+}
+
+.fore p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px
+}
+
+.two {
+    width: 300px;
+    border: 2px solid black;
+  
+    background-color: white;
+}
+
+.three {
+    width: 300px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+footer{
+   
+    height: 150px;
+        background-color: rgb(255, 254, 254);
+}
+
+.bottom-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.face-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.insta-logo {
+    width: 60px;
+    height: 60px;
+}
+footer a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-size: 18px;
+font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+
+
+.five {
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    padding-top: 30px;  
+
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4vh;
+    padding: 5;
+   
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+}

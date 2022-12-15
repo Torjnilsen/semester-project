@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(232, 232, 232);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.one {
+    display: flex;
+    background-color: white;
+    height: 100px;
+    max-width: 100%;
+    width: 100%;
+    min-width: 375px;
+}
+
+nav img {
+    padding-top: 10px;
+}
+
+nav a {
+    padding-top: 40px;
+    padding: 40px;
+    display: block;
+    font-family: "urw-din", arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    padding: 0;
+    list-style: none;
+}
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-between;
+    padding: 2em;
+    width: 100%;
+    max-width: 100%;
+    border: 4px solid black;
+    min-width: 375px;
+}
+
+
+.boble-boble-img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+.boble-boble-img:hover{
+    border: 2px solid black;
+}
+.item-image-color {
+    max-width: 120px;
+    border-radius: 10px;
+}
+.item-image-color:hover{
+    border: 2px solid black;
+}
+
+
+.color-choices-list {
+    display: flex;
+    gap: 1em;
+}
+
+.size-buttons {
+    display: flex;
+    gap: 1.2em;
+}
+
+.add-to-cart-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+button {
+    min-width: 45px;
+    min-height: 45px;
+    background-color: lawngreen;
+}
+.ski-item-img{
+    max-width: 300px;
+     border-radius: 10px;
+}
+.ski-item-img:hover{
+    border: 2px solid black;
+}
+.spring-item-img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.spring-item-img:hover {
+    border: 2px solid black;
+}
+
+.wind-item-img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.wind-item-img:hover {
+    border: 2px solid black;
+}
+
+.bottom-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.face-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.insta-logo {
+    width: 60px;
+    height: 60px;
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4vh;
+    padding: 5;
+
+}
+.four{
+    padding: 10px;
+    background-color: rgb(243, 243, 243);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}

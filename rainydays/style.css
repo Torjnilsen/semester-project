@@ -1,0 +1,193 @@
+html {
+ box-sizing: border-box;
+}
+
+html:focus-within {
+ scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+ box-sizing: inherit;
+}
+
+body{
+    background-color: rgb(226, 223, 223);
+}
+
+.flexbox-container{
+    display: flex;  
+}
+
+.one {
+  display: flex;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+  }
+
+nav img{
+    padding-top: 10px;
+}
+nav a{
+        padding-top: 40px;
+        padding: 40px;
+        display: block;
+        font-family: "urw-din", arial, sans-serif;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #000;
+        text-decoration: none;
+}
+a:hover {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul{
+    
+    display: flex;
+        flex-direction: row;
+        gap: 1vh;
+        padding: 0;
+        list-style: none;
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+.two {
+    background-color: #90aef1;
+    background-image: url(images/825191.jpeg);
+    height: 400px;
+    background-size: cover;
+     background-repeat: no-repeat;
+     
+}
+
+main p{
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+main img{
+    border-radius: 10px;
+
+}
+
+
+.bottom-logo{
+    width: 60px;
+    height: 60px;
+}
+.face-logo{
+    width: 60px;
+    height: 60px;
+}
+.insta-logo{
+    width: 60px;
+    height: 60px;
+}
+.tvitter-logo{
+width: 60px;
+    height: 60px;
+}
+
+.three{
+    height: 570px;
+    background-color: white;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    max-width: 500px;
+    margin: 2rem auto;
+    border: solid gray;
+    padding: 2rem;
+
+}
+.label{
+    display: block;
+}
+input, textarea{
+    display: block;
+    width: 100%;
+    border: 2px solid lightblue;
+    padding:.5rem ;
+    border-radius: 5px;
+}
+.gender{
+    display: block;
+        width: 100%;
+        border: 2px solid lightblue;
+        padding: .5rem;
+        border-radius: 5px;
+}
+.robot{
+    display: block;
+        width: 100%;
+        border: 2px solid lightblue;
+        padding: .5rem;
+        border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: black;
+    outline: none;
+    border-radius: 4px;
+    border: 0px solid transparent;
+    padding: 2vh 1vw;
+    min-height: 45px;
+    margin-top: 5vh;
+    color: white;
+    font-size: 1.6rem;
+}
+
+
+.fore {
+    padding-top: 10px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    padding-top: 15px;
+   background-color: white;
+    height: 100px;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4vh;
+    padding: 5;
+
+}
+footer a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+@media only screen and (min-width: 360px) {
+    .flexbox-container {
+        display: flex;
+    }
+}
+
+
